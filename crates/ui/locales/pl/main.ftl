@@ -2,17 +2,17 @@
 
 language-system = System
 language-group = Język
-language-label = Język wyświetlacza
-language-description = Wybierz język Sereina. Treści Discorda nigdy nie są tłumaczone.
+language-label = Język wyświetlania
+language-description = Wybierz język Serein. Treści z Discorda nigdy nie są tłumaczone.
 section-user = Ustawienia użytkownika
 section-app = Ustawienia aplikacji
 section-customization = Personalizacja
 page-account = Moje konto
 page-profile = Profil
-page-general = Ogólny
+page-general = Ogólne
 page-appearance = Wygląd
-page-chat = Pogawędzić
-page-messaging-permissions = Uprawnienia do przesyłania wiadomości
+page-chat = Czat
+page-messaging-permissions = Uprawnienia do wiadomości
 page-notifications = Powiadomienia
 page-registered-games = Zarejestrowane gry
 page-voice = Głos i wideo
@@ -22,66 +22,69 @@ page-updates = Aktualizacje
 page-extensions = Rozszerzenia
 page-themes = Motywy
 description-account = Konto Discord zalogowane na tym urządzeniu.
-description-profile = Wybierz sposób, w jaki będziesz wyglądać na Discordzie.
-description-general = Uruchamianie, zachowanie okien i grafiki na tym urządzeniu.
-description-appearance = Motyw, kolory, efekty okienne i układ.
-description-chat = Jak zachowują się wiadomości, multimedia, linki i przewijanie.
-description-messaging-permissions = Kontroluj, kto może się z Tobą kontaktować i w jaki sposób wiadomości są filtrowane.
-description-notifications = Wybierz, jakie powiadomienia chcesz otrzymywać i jak mają się wyświetlać.
-description-registered-games = Udostępniaj, w co grasz, oraz poprawiaj lub dodawaj gry wykryte przez Serein.
-description-voice = Mikrofon, głośniki, kamera i przetwarzanie głosu.
-description-keybinds = Skróty klawiaturowe dla Serein.
-description-storage = Co Serein przechowuje na tym urządzeniu.
+description-profile = Wybierz, jak wyświetlasz się na Discordzie.
+description-general = Zachowanie aplikacji podczas uruchamiania, działanie okna i grafiki na tym urządzeniu.
+description-appearance = Motyw, kolory, efekty okna i układ.
+description-chat = Sposób działania wiadomości, multimediów, linków i przewijania.
+description-messaging-permissions = Kontroluj, kto może się z Tobą kontaktować i jak filtrowane są wiadomości.
+description-notifications = Wybierz, jakie powiadomienia otrzymujesz i jak są wyświetlane.
+description-registered-games = Udostępniaj informacje o uruchomionych grach oraz naprawiaj lub dodawaj gry wykrywane przez Serein.
+description-voice = Mikrofon, głośniki, kamera i przetwarzanie dźwięku.
+description-keybinds = Skróty klawiszowe aplikacji Serein.
+description-storage = Dane przechowywane przez Serein na tym urządzeniu.
 description-updates = Aktualizuj Serein na tym urządzeniu.
 description-extensions = Zarządzaj wtyczkami społeczności.
-description-themes = Wybierz motyw społeczności.
+description-themes = Wybierz motyw stworzony przez społeczność.
 theme-maker = Kreator motywów
-theme-maker-description = Zrób to swoje. Podgląd zmian w rozmowach.
+theme-maker-description = Dostosuj aplikację do siebie. Podglądaj zmiany w swoich rozmowach.
 search = Szukaj
 no-settings-found = Nie znaleziono ustawień
-search-suggestion = Wypróbuj motyw, powiadomienia, głos lub pamięć podręczną.
-exit-preview = Wyjdź z podglądu
+search-suggestion = Spróbuj wyszukać: motyw, powiadomienia, głos lub pamięć podręczna.
+exit-preview = Zakończ podgląd
 log-out = Wyloguj się
 unofficial = Nieoficjalne · niezatwierdzone przez Discord
 offline-preview = Podgląd offline · zmiany pozostają w tej sesji i nigdy nie są wysyłane.
-general-startup = Uruchomienie
-general-open-at-startup = Otwórz Serein po uruchomieniu komputera
+general-startup = Uruchamianie
+general-open-at-startup = Uruchamiaj Serein wraz ze startem komputera
 general-open-at-startup-description = Serein loguje się i łączy w tle.
-general-start-minimized = Rozpocznij zminimalizowany
-general-start-minimized-description = Zacznij w tle, na uboczu.
+general-start-minimized = Uruchamiaj zminimalizowaną aplikację
+general-start-minimized-description = Uruchamiaj aplikację w tle, bez wyświetlania jej na ekranie.
 general-startup-unavailable = Automatyczne uruchamianie jest dostępne w systemach Windows i macOS.
 general-window = Okno
 general-hide-decorations = Bez paska tytułu
-general-hide-decorations-description = Dla kafelkowych menedżerów okien: usuwa wszystkie paski tytułu i obramowania, w tym własny pasek Serein. Przenoś, zmieniaj rozmiar i zamykaj Serein za pomocą menedżera okien.
-general-custom-title-bar = Własny pasek tytułu
-general-custom-title-bar-description = Zastępuje systemowy pasek tytułu własnym paskiem nagłówka Serein w stylu GTK 4.
+general-hide-decorations-description = Dla menedżerów okien kafelkowych: usuń wszystkie paski tytułu i obramowania, w tym własne elementy Serein. Przenoś, zmieniaj rozmiar i zamykaj Serein za pomocą menedżera okien.
+general-custom-title-bar = Niestandardowy pasek tytułu
+general-custom-title-bar-description = Zastąp systemowy pasek tytułu własnym paskiem nagłówka Serein w stylu GTK 4.
 general-hide-title-bar = Ukryj pasek tytułu Serein
-general-hide-title-bar-description = Zamiast tego użyj systemowego paska tytułu i przycisków okien.
-general-keep-menu-bar = Trzymaj Serein na pasku menu
-general-keep-system-tray = Trzymaj Serein w zasobniku systemowym
-general-menu-bar-description = Zamknięcie okna powoduje zatrzymanie Sereina na pasku menu. Wyjdź z menu, aby wyjść.
-general-linux-tray-description = Zamknięcie sprawia, że ​​Serein działa. Użyj zasobnika, aby wyświetlić, zminimalizować lub wyjść.
-general-windows-tray-description = Zamknięcie okna powoduje, że Serein pozostaje w obszarze powiadomień. Wyjdź z menu, aby wyjść.
-general-tray-unavailable = Taca nie jest dostępna na tej platformie.
+general-hide-title-bar-description = Używaj systemowego paska tytułu i przycisków okna.
+general-keep-menu-bar = Pozostaw Serein na pasku menu
+general-keep-system-tray = Pozostaw Serein w zasobniku systemowym
+general-menu-bar-description = Zamknięcie okna pozostawia Serein na pasku menu. Aby zamknąć aplikację, wybierz opcję zakończenia z jej menu.
+general-linux-tray-description = Zamknięcie okna pozostawia Serein uruchomioną. Użyj zasobnika systemowego, aby wyświetlić, zminimalizować lub zamknąć aplikację.
+general-windows-tray-description = Zamknięcie okna pozostawia Serein w obszarze powiadomień. Aby zamknąć aplikację, wybierz opcję zakończenia z jej menu.
+general-tray-unavailable = Zasobnik systemowy nie jest dostępny na tej platformie.
 general-graphics = Grafika
 general-render-with = Renderuj za pomocą
-general-gpu-restart = Zaczyna obowiązywać przy następnym uruchomieniu Sereina.
-general-gpu-current-prefix = Obecnie rysuję z
+general-graphics-api = API graficzne
+general-graphics-api-description = Zmiany zostaną zastosowane po ponownym uruchomieniu Serein. Jeśli wybrane API nie obsługuje renderowania tego okna, zostanie użyta opcja Automatycznie.
+general-graphics-api-env-override = Zmienna WGPU_BACKEND kontroluje API podczas tego uruchomienia. Usuń jej nadpisanie ze zmiennych środowiskowych, aby użyć tego ustawienia.
+general-gpu-restart = Zmiany zostaną zastosowane przy następnym uruchomieniu Serein.
+general-gpu-current-prefix = Obecnie renderowanie odbywa się za pomocą
 general-steady-refresh-rate = Stała częstotliwość odświeżania
-general-steady-refresh-rate-description = Gdy Serein jest aktywnym oknem, rysuje z częstotliwością odświeżania ekranu, dzięki czemu ekrany o zmiennej częstotliwości odświeżania (VRR, G-SYNC, FreeSync) mogą utrzymać jedną częstotliwość zamiast migotać. Zużywa więcej energii.
-gpu-automatic = Automatyczny
+general-steady-refresh-rate-description = Gdy Serein jest aktywnym oknem, renderuje obraz z częstotliwością odświeżania ekranu, aby wyświetlacze ze zmienną częstotliwością odświeżania (VRR, G-SYNC, FreeSync) mogły utrzymać stałą wartość zamiast migotać. Zwiększa zużycie energii.
+gpu-automatic = Automatycznie
 gpu-high-performance = Wysoka wydajność
-gpu-power-saving = Oszczędność energii
-gpu-automatic-description = Pozwól Sereinowi wybrać procesor graficzny, który może narysować to okno.
-gpu-high-performance-description = Użyj oddzielnej karty graficznej, jeśli jest dostępna.
-gpu-power-saving-description = Użyj zintegrowanej grafiki, aby oszczędzać baterię.
-direct-messages = Wiadomości bezpośrednie
+gpu-power-saving = Oszczędzanie energii
+gpu-automatic-description = Pozwól Serein wybrać układ graficzny odpowiedni do renderowania tego okna.
+gpu-high-performance-description = Używaj dedykowanej karty graficznej, jeśli jest dostępna.
+gpu-power-saving-description = Używaj zintegrowanego układu graficznego, aby oszczędzać baterię.
+direct-messages = Wiadomości prywatne
 find-conversation = Znajdź rozmowę
-find-conversation-tooltip = Wyszukaj załadowane rozmowy (Ctrl/Cmd+K)
-friends = Przyjaciele
+find-conversation-tooltip = Przeszukaj załadowane rozmowy (Ctrl/Cmd+K)
+friends = Znajomi
 members = Członkowie
-retry-shortcuts = Spróbuj ponownie użyć skrótów
-profile-and-status = Profil i stan
+retry-shortcuts = Ponów próbę wykrycia skrótów
+profile-and-status = Profil i status
 user-settings = Ustawienia użytkownika
 your-account = Twoje konto
 reconnecting = Ponowne łączenie…
@@ -95,74 +98,74 @@ threads = Wątki
 channel-pill-thread = Wątek
 channel-pill-forum = Forum
 channel-pill-post = Post
-channel-pill-message = wiadomość
-reload-history = Załaduj ponownie historię
-in-a-call = W rozmowie
-members-description = Wszyscy, którzy mają dostęp do tej rozmowy.
-choose-conversation-people = Wybierz rozmowę, aby zobaczyć jej uczestników.
-people-unavailable = Osoby nie są dostępne w tej rozmowie.
-loading-people = Ładowanie osób…
-no-people = Nikt nie wrócił dla tego widoku.
-status-online = W Internecie
-status-offline = Nieaktywny
+channel-pill-message = Wiadomość
+reload-history = Odśwież historię
+in-a-call = W trakcie rozmowy
+members-description = Wszyscy użytkownicy mający dostęp do tej konwersacji.
+choose-conversation-people = Wybierz konwersację, aby zobaczyć jej uczestników.
+people-unavailable = Lista uczestników nie jest dostępna w tej konwersacji.
+loading-people = Ładowanie uczestników…
+no-people = Brak uczestników do wyświetlenia.
+status-online = Online
+status-offline = Offline
 status-idle = Zaraz wracam
 status-dnd = Nie przeszkadzać
 role = Rola
-no-conversations = Brak dostępnych rozmów.
-open-in-discord = Otwórz w Discord
+no-conversations = Brak dostępnych konwersacji.
+open-in-discord = Otwórz w Discordzie
 new = Nowy
-members-count = Członkowie
+members-count = Liczba członków
 members-heading = Członkowie
-no-conversation-selected = Nie wybrano żadnej rozmowy
-select-conversation = Wybierz kanał lub wiadomość bezpośrednią z listy.
-friends-online = W Internecie
-friends-all = Wszystko
-friends-pending = Aż do
-friends-blocked-ignored = Zablokowane i ignorowane
+no-conversation-selected = Nie wybrano konwersacji
+select-conversation = Wybierz kanał lub wiadomość prywatną z listy.
+friends-online = Online
+friends-all = Wszyscy
+friends-pending = Oczekujące
+friends-blocked-ignored = Zablokowani i ignorowani
 friends-add = Dodaj znajomego
 friends-search = Szukaj
-friends-add-description = Możesz dodawać znajomych, używając ich nazwy użytkownika Discord.
+friends-add-description = Możesz dodawać znajomych za pomocą ich nazw użytkownika Discord.
 friends-username = Nazwa użytkownika
-friends-enter-username = Wprowadź nazwę użytkownika
-friends-sending = Przesyłka…
+friends-enter-username = Wpisz nazwę użytkownika
+friends-sending = Wysyłanie…
 friends-send-request = Wyślij zaproszenie do znajomych
-friends-reconnect = Połącz się ponownie przed wysłaniem zaproszenia do znajomych.
-friends-notes-unsupported = Spersonalizowane notatki do żądań nie są jeszcze obsługiwane.
-friends-other-places = Inne miejsca do zawierania przyjaźni
-friends-discover-description = Nie masz nazwy użytkownika? Odkryj społeczności publiczne w Discord.
-friends-explore-servers = Poznaj wykrywalne serwery ↗
-friends-incoming = Przybywający
-friends-outgoing = Towarzyski
-friends-search-requests = Żądania wyszukiwania
+friends-reconnect = Połącz się ponownie, zanim wyślesz zaproszenie do znajomych.
+friends-notes-unsupported = Spersonalizowane wiadomości do zaproszeń nie są jeszcze obsługiwane.
+friends-other-places = Inne sposoby na poznawanie znajomych
+friends-discover-description = Nie znasz nazwy użytkownika? Odkrywaj publiczne społeczności na Discordzie.
+friends-explore-servers = Przeglądaj publiczne serwery ↗
+friends-incoming = Przychodzące
+friends-outgoing = Wysłane
+friends-search-requests = Szukaj zaproszeń
 friends-requests-unavailable = Zaproszenia do znajomych nie są jeszcze dostępne.
-friends-no-request-search = Żadne żądania nie pasują do Twojego wyszukiwania.
-friends-no-outgoing = Brak wychodzących zaproszeń do znajomych.
-friends-no-incoming = Brak przychodzących zaproszeń do znajomych.
-friends-new-requests = Tutaj pojawiają się nowe prośby.
-friends-try-different = Wypróbuj inną nazwę lub nazwę użytkownika.
-friends-incoming-request = Przychodzące zaproszenie do grona znajomych
-friends-outgoing-request = Wychodzące zaproszenie do znajomych
-friends-accept-request = Zaakceptuj prośbę
-friends-decline-request = Odrzuć prośbę
-friends-cancel-request = Anuluj żądanie
-friends-dismiss-warning = Odrzuć ostrzeżenie o statusie znajomego
-friends-status-warning = Nie udało się wczytać statusu online i aktywności niektórych znajomych. Lista online może być niekompletna.
-friends-all-heading = Wszyscy przyjaciele
-friends-blocked-heading = Zablokowany i zignorowany
-friends-blocked-unavailable = Zablokowani i ignorowani użytkownicy nie są jeszcze dostępni.
-friends-unavailable = Znajomi nie są jeszcze dostępni.
-friends-no-blocked-search = Żaden zablokowany lub zignorowany użytkownik nie pasuje do Twojego wyszukiwania.
-friends-no-search = Żaden przyjaciel nie pasuje do Twojego wyszukiwania.
-friends-no-blocked = Brak zablokowanych lub zignorowanych użytkowników.
-friends-none-yet = Nie ma jeszcze żadnych przyjaciół.
-friends-none-online = Obecnie żaden z znajomych nie jest online.
-friends-blocked-help = Tutaj pojawiają się osoby, które blokujesz lub ignorujesz.
-friends-add-help = Dodaj znajomych według nazwy użytkownika na karcie Dodaj znajomego.
-friends-ignored = Ignorowane
+friends-no-request-search = Żadne zaproszenia nie pasują do wyszukiwania.
+friends-no-outgoing = Brak wysłanych zaproszeń do znajomych.
+friends-no-incoming = Brak otrzymanych zaproszeń do znajomych.
+friends-new-requests = Nowe zaproszenia pojawią się tutaj.
+friends-try-different = Spróbuj użyć innego imienia lub nazwy użytkownika.
+friends-incoming-request = Otrzymane zaproszenie do znajomych
+friends-outgoing-request = Wysłane zaproszenie do znajomych
+friends-accept-request = Zaakceptuj zaproszenie
+friends-decline-request = Odrzuć zaproszenie
+friends-cancel-request = Anuluj zaproszenie
+friends-dismiss-warning = Zamknij ostrzeżenie o statusie znajomych
+friends-status-warning = Nie udało się załadować statusu online ani aktywności niektórych znajomych. Lista osób online może być niekompletna.
+friends-all-heading = Wszyscy znajomi
+friends-blocked-heading = Zablokowani i ignorowani
+friends-blocked-unavailable = Lista zablokowanych i ignorowanych użytkowników nie jest jeszcze dostępna.
+friends-unavailable = Lista znajomych nie jest jeszcze dostępna.
+friends-no-blocked-search = Żaden z zablokowanych ani ignorowanych użytkowników nie pasuje do wyszukiwania.
+friends-no-search = Żaden znajomy nie pasuje do wyszukiwania.
+friends-no-blocked = Brak zablokowanych lub ignorowanych użytkowników.
+friends-none-yet = Nie masz jeszcze żadnych znajomych.
+friends-none-online = Żaden ze znajomych nie jest obecnie online.
+friends-blocked-help = Osoby, które zablokujesz lub zignorujesz, pojawią się tutaj.
+friends-add-help = Dodawaj znajomych za pomocą nazwy użytkownika w zakładce „Dodaj znajomego”.
+friends-ignored = Ignorowany
 friends-blocked = Zablokowany
-friends-presence-unavailable = Obecność niedostępna
+friends-presence-unavailable = Status niedostępny
 friends-message = Wiadomość
-friends-no-open-dm = Brak otwartych wiadomości bezpośrednich z tym znajomym
+friends-no-open-dm = Brak otwartej wiadomości prywatnej z tym znajomym.
 friends-more = Więcej
 
 # Semantic application strings. Keys stay stable when English copy changes.
@@ -173,40 +176,40 @@ account-badge-app = APLIKACJA
 # Context: name
 account-badge-app-description = Wiadomość wygenerowana przez aplikację
 # Context: name
-account-badge-bot = NERW
+account-badge-bot = BOT
 # Context: name
 account-badge-bot-description = Konto bota
 # Context: name
 account-badge-verified-bot-description = Zweryfikowane konto bota
 account-badge-webhook = WEBHOOK
 # Context: name
-account-badge-webhook-description = Autor webhooka
+account-badge-webhook-description = Autor wiadomości webhook
 
 ## crates/ui/src/account_menu.rs
 # Context: account_identity_card
 account-menu-account-identity-card-loading-profile = Ładowanie profilu…
 # Context: account_identity_card
-account-menu-account-identity-card-reload-profile = Załaduj ponownie profil
+account-menu-account-identity-card-reload-profile = Odśwież profil
 # Context: account_menu
-account-menu-account-menu-custom-status = Stan niestandardowy
+account-menu-account-menu-custom-status = Status niestandardowy
 # Context: account_menu
-account-menu-account-menu-shown-next-to-your-name-across-discord = Wyświetlane obok Twojego imienia i nazwiska na Discordzie.
+account-menu-account-menu-shown-next-to-your-name-across-discord = Wyświetlany obok Twojej nazwy w całym Discordzie.
 # Context: account_switcher
 account-menu-account-switcher-add-an-account = Dodaj konto
 # Context: account_switcher_row
-account-menu-account-switcher-row-forget = Zapominać
+account-menu-account-switcher-row-forget = Usuń z zapamiętanych
 # Context: account_switcher_row
-account-menu-account-switcher-row-forget-this-account-on-this-device = Zapomnij to konto na tym urządzeniu
+account-menu-account-switcher-row-forget-this-account-on-this-device = Usuń zapamiętane konto z tego urządzenia
 # Context: account_switcher_row
 account-menu-account-switcher-row-switch-to = Przełącz na
 # Context: account_switcher
 account-menu-account-switcher-switch-accounts = Przełącz konta
 # Context: clears_at
-account-menu-clears-at-at = Na
+account-menu-clears-at-at = o
 # Context: clears_at
 account-menu-clears-at-tomorrow = jutro
 # Context: custom_status_actions
-account-menu-custom-status-actions-apply = Stosować
+account-menu-custom-status-actions-apply = Zastosuj
 # Context: custom_status_actions
 account-menu-custom-status-actions-clear = Wyczyść
 # Context: account_custom_status_row
@@ -216,15 +219,15 @@ account-menu-custom-status-editor-clear-after = Wyczyść po
 # Context: custom_status_editor
 account-menu-custom-status-editor-no-custom-status = Brak statusu niestandardowego
 # Context: custom_status_editor
-account-menu-custom-status-editor-serein-clears-it = Serein to wyjaśnia
+account-menu-custom-status-editor-serein-clears-it = Serein automatycznie go wyczyści
 # Context: custom_status_editor
-account-menu-custom-status-editor-status-text = Tekst stanu
+account-menu-custom-status-editor-status-text = Treść statusu
 # Context: custom_status_editor
-account-menu-custom-status-editor-use-up-to-128-characters-without-control-characters = Użyj maksymalnie 128 znaków bez znaków kontrolnych.
+account-menu-custom-status-editor-use-up-to-128-characters-without-control-characters = Użyj maksymalnie 128 znaków, bez znaków sterujących.
 # Context: custom_status_editor
-account-menu-custom-status-editor-what-s-on-your-mind = Co masz na myśli?
+account-menu-custom-status-editor-what-s-on-your-mind = O czym teraz myślisz?
 # Context: account_custom_status_row
-account-menu-custom-status-set = Ustaw niestandardowy status
+account-menu-custom-status-set = Ustaw status niestandardowy
 # Context: label
 account-menu-label-1-hour = 1 godzina
 # Context: label
@@ -232,51 +235,52 @@ account-menu-label-30-minutes = 30 minut
 # Context: label
 account-menu-label-4-hours = 4 godziny
 # Context: label
-account-menu-label-don-t-clear = Nie rozjaśniaj
+account-menu-label-don-t-clear = Nie czyść
 # Context: label
 account-menu-label-today = Dzisiaj
 # Context: presence_menu
-account-menu-presence-menu-you-will-appear-offline = Pojawisz się offline
+account-menu-presence-menu-you-will-appear-offline = Będziesz widoczny jako offline
 # Context: presence_menu
-account-menu-presence-menu-you-will-not-receive-desktop-notifications = Nie będziesz otrzymywać powiadomień na pulpicie
+account-menu-presence-menu-you-will-not-receive-desktop-notifications = Nie będziesz otrzymywać powiadomień na komputerze
 # Context: account_status_row
-account-menu-status-invisible = Niewidzialny
+account-menu-status-invisible = Niewidoczny
 
 ## crates/ui/src/archives.rs
 # Context: show
 archives-active-threads = AKTYWNE WĄTKI
 # Context: show
-archives-show-active-threads-come-from-the-session-older-threads-load-25 = Aktywne wątki pochodzą z sesji; starsze wątki ładują 25 na raz. Otwarcie ładuje wiadomości bez dołączania.
+archives-show-active-threads-come-from-the-session-older-threads-load-25 = Aktywne wątki pochodzą z bieżącej sesji; starsze wątki są wczytywane po 25 jednocześnie. Otwarcie wątku wczytuje wiadomości bez dołączania do niego.
 # Context: show
-archives-show-archives-active-threads = archiwizuje aktywne wątki
+archives-show-archives-active-threads = aktywne wątki w archiwum
 # Context: show
-archives-show-archives-are-unavailable-while-disconnected-or-without-channel-access = Archiwa są niedostępne po rozłączeniu lub braku dostępu do kanału.
+archives-show-archives-are-unavailable-while-disconnected-or-without-channel-access = Archiwa są niedostępne, gdy brak połączenia lub dostępu do kanału.
 # Context: show
 archives-show-close = Zamknij
 # Context: show
-archives-show-create = Tworzyć
+archives-show-create = Utwórz
 # Context: show
-archives-show-loading-older-threads = Ładowanie starszych wątków…
+archives-show-loading-older-threads = Wczytywanie starszych wątków…
 # Context: show
-archives-show-no-active-thread-matches-this-search = Żaden aktywny wątek nie pasuje do tego wyszukiwania.
+archives-show-no-active-thread-matches-this-search = Żaden aktywny wątek nie pasuje do wyszukiwania.
 # Context: show
-archives-show-no-older-threads-reported-by-the-service = Serwis nie zgłosił żadnych starszych wątków.
+archives-show-no-older-threads-reported-by-the-service = Usługa nie zgłasza żadnych starszych wątków.
 # Context: show
-archives-show-no-older-threads-returned = Nie zwrócono żadnych starszych wątków.
+archives-show-no-older-threads-returned = Nie znaleziono żadnych starszych wątków.
+archives-show-no-older-thread-matches-this-search = Żaden starszy wątek nie pasuje do wyszukiwania.
 # Context: show
 archives-show-older-threads = STARSZE WĄTKI
 # Context: show
-archives-show-private-archives-require-permission-from-the-service = Archiwa prywatne wymagają zgody serwisu.
+archives-show-private-archives-require-permission-from-the-service = Dostęp do prywatnych archiwów wymaga odpowiednich uprawnień nadanych przez usługę.
 # Context: show
-archives-show-search-for-thread-name = Wyszukaj nazwę wątku
+archives-show-search-for-thread-name = Szukaj nazwy wątku
 # Context: show
 archives-show-threads = Wątki
 # Context: show
-archives-show-you-cannot-start-a-thread-in-this-channel = Nie możesz rozpocząć wątku na tym kanale.
+archives-show-you-cannot-start-a-thread-in-this-channel = Nie możesz utworzyć wątku na tym kanale.
 # Context: thread_card
 archives-thread-card-open-thread = Otwórz wątek
 # Context: thread_card
-archives-thread-card-started-by = Rozpoczęty przez
+archives-thread-card-started-by = Utworzony przez
 
 ## crates/ui/src/attachments.rs
 # Context: download_button
